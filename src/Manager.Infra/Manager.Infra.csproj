@@ -1,0 +1,35 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <Content Include="obj\Debug\net6.0\Manager.Infra.AssemblyInfoInputs.cache"/>
+        <Content Include="obj\Debug\net6.0\Manager.Infra.assets.cache"/>
+        <Content Include="obj\Debug\net6.0\Manager.Infra.csproj.AssemblyReference.cache"/>
+        <Content Include="obj\Debug\net6.0\Manager.Infra.GeneratedMSBuildEditorConfig.editorconfig"/>
+        <Content Include="obj\Manager.Infra.csproj.nuget.dgspec.json"/>
+        <Content Include="obj\Manager.Infra.csproj.nuget.g.props"/>
+        <Content Include="obj\Manager.Infra.csproj.nuget.g.targets"/>
+        <Content Include="obj\project.assets.json"/>
+        <Content Include="obj\project.nuget.cache"/>
+        <Content Include="obj\project.packagespec.json"/>
+        <Content Include="obj\rider.project.model.nuget.info"/>
+        <Content Include="obj\rider.project.restore.info"/>
+    </ItemGroup>
+
+    <ItemGroup>
+        <Compile Include="obj\Debug\net6.0\.NETCoreApp,Version=v6.0.AssemblyAttributes.cs"/>
+        <Compile Include="obj\Debug\net6.0\Manager.Infra.AssemblyInfo.cs"/>
+        <Compile Include="obj\Debug\net6.0\Manager.Infra.GlobalUsings.g.cs"/>
+    </ItemGroup>
+
+    <ItemGroup>
+        <Folder Include="obj\Debug\net6.0\refint\"/>
+        <Folder Include="obj\Debug\net6.0\ref\"/>
+    </ItemGroup>
+
+</Project>

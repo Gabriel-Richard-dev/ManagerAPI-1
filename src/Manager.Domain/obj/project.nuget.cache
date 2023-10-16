@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "Cp9Ie6m0WMrc0hQt3Z98U3G8C9xfDa5txOJbFUf76adCsESWcAmJjwKXrTUwjawdiTZRhz4QJuVEjCEZTd47vw==",
+  "success": true,
+  "projectFilePath": "/home/gabrielrichard/WebAPI/Manager/src/Manager.Domain/Manager.Domain.csproj",
+  "expectedPackageFiles": [
+    "/home/gabrielrichard/.nuget/packages/fluentvalidation/11.7.1/fluentvalidation.11.7.1.nupkg.sha512"
+  ],
+  "logs": []
+}
