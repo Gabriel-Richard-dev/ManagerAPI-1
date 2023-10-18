@@ -1,0 +1,17 @@
+/home/gabrielrichard/WebAPI/Manager/src/Manager.Infra/bin/Debug/net6.0/Manager.Infra.deps.json
+/home/gabrielrichard/WebAPI/Manager/src/Manager.Infra/bin/Debug/net6.0/Manager.Infra.runtimeconfig.json
+/home/gabrielrichard/WebAPI/Manager/src/Manager.Infra/bin/Debug/net6.0/Manager.Infra.dll
+/home/gabrielrichard/WebAPI/Manager/src/Manager.Infra/bin/Debug/net6.0/ref/Manager.Infra.dll
+/home/gabrielrichard/WebAPI/Manager/src/Manager.Infra/bin/Debug/net6.0/Manager.Infra.pdb
+/home/gabrielrichard/WebAPI/Manager/src/Manager.Infra/bin/Debug/net6.0/Manager.Domain.dll
+/home/gabrielrichard/WebAPI/Manager/src/Manager.Infra/bin/Debug/net6.0/Manager.Domain.pdb
+/home/gabrielrichard/WebAPI/Manager/src/Manager.Infra/obj/Debug/net6.0/Manager.Infra.csproj.AssemblyReference.cache
+/home/gabrielrichard/WebAPI/Manager/src/Manager.Infra/obj/Debug/net6.0/Manager.Infra.GeneratedMSBuildEditorConfig.editorconfig
+/home/gabrielrichard/WebAPI/Manager/src/Manager.Infra/obj/Debug/net6.0/Manager.Infra.AssemblyInfoInputs.cache
+/home/gabrielrichard/WebAPI/Manager/src/Manager.Infra/obj/Debug/net6.0/Manager.Infra.AssemblyInfo.cs
+/home/gabrielrichard/WebAPI/Manager/src/Manager.Infra/obj/Debug/net6.0/Manager.Infra.csproj.CoreCompileInputs.cache
+/home/gabrielrichard/WebAPI/Manager/src/Manager.Infra/obj/Debug/net6.0/Manager.Infra.csproj.CopyComplete
+/home/gabrielrichard/WebAPI/Manager/src/Manager.Infra/obj/Debug/net6.0/Manager.Infra.dll
+/home/gabrielrichard/WebAPI/Manager/src/Manager.Infra/obj/Debug/net6.0/ref/Manager.Infra.dll
+/home/gabrielrichard/WebAPI/Manager/src/Manager.Infra/obj/Debug/net6.0/Manager.Infra.pdb
+/home/gabrielrichard/WebAPI/Manager/src/Manager.Infra/obj/Debug/net6.0/Manager.Infra.genruntimeconfig.cache

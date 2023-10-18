@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Cp9Ie6m0WMrc0hQt3Z98U3G8C9xfDa5txOJbFUf76adCsESWcAmJjwKXrTUwjawdiTZRhz4QJuVEjCEZTd47vw==",
+  "dgSpecHash": "6cOYmdIxJoTmZ8WElsxf7LKrfFH+a/a8DrWDk44A2CeYMVwfaLJdrK+TnVywB+jv6tBVMt5E44QAWmnDK++gpA==",
   "success": true,
   "projectFilePath": "/home/gabrielrichard/WebAPI/Manager/src/Manager.Domain/Manager.Domain.csproj",
   "expectedPackageFiles": [

@@ -45,9 +45,9 @@ namespace Manager.Domain.Entities
                     _erros.Add(error.ErrorMessage);
                 }
 
-                throw new Exception($"Alguns campos estão inválidos, corrija-os, \n{_erros[0]}");
+                throw new Exception($"Alguns campos estão inválidos, corrija-os, \n" + _erros[0]);
             }
-            return false;
+            return true;
         }
         
     }
