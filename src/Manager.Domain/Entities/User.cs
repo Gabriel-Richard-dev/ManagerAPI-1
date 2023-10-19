@@ -1,3 +1,4 @@
+using Manager.Core.Exceptions;
 using Manager.Domain.Validators;
 
 namespace Manager.Domain.Entities
@@ -45,7 +46,7 @@ namespace Manager.Domain.Entities
                     _erros.Add(error.ErrorMessage);
                 }
 
-                throw new Exception($"Alguns campos estão inválidos, corrija-os, \n" + _erros[0]);
+                throw new DomainException($"Alguns campos estão inválidos, corrija-os, \n", _erros);
             }
             return true;
         }
