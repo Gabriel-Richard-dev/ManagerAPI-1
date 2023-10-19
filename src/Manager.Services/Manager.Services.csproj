@@ -7,29 +7,38 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <Content Include="obj\Debug\net6.0\Manager.Services.AssemblyInfoInputs.cache"/>
-        <Content Include="obj\Debug\net6.0\Manager.Services.assets.cache"/>
-        <Content Include="obj\Debug\net6.0\Manager.Services.csproj.AssemblyReference.cache"/>
-        <Content Include="obj\Debug\net6.0\Manager.Services.GeneratedMSBuildEditorConfig.editorconfig"/>
-        <Content Include="obj\Manager.Services.csproj.nuget.dgspec.json"/>
-        <Content Include="obj\Manager.Services.csproj.nuget.g.props"/>
-        <Content Include="obj\Manager.Services.csproj.nuget.g.targets"/>
-        <Content Include="obj\project.assets.json"/>
-        <Content Include="obj\project.nuget.cache"/>
-        <Content Include="obj\project.packagespec.json"/>
-        <Content Include="obj\rider.project.model.nuget.info"/>
-        <Content Include="obj\rider.project.restore.info"/>
+        <Content Include="obj\Debug\net6.0\Manager.Services.AssemblyInfoInputs.cache" />
+        <Content Include="obj\Debug\net6.0\Manager.Services.assets.cache" />
+        <Content Include="obj\Debug\net6.0\Manager.Services.csproj.AssemblyReference.cache" />
+        <Content Include="obj\Debug\net6.0\Manager.Services.GeneratedMSBuildEditorConfig.editorconfig" />
+        <Content Include="obj\Manager.Services.csproj.nuget.dgspec.json" />
+        <Content Include="obj\Manager.Services.csproj.nuget.g.props" />
+        <Content Include="obj\Manager.Services.csproj.nuget.g.targets" />
+        <Content Include="obj\project.assets.json" />
+        <Content Include="obj\project.nuget.cache" />
+        <Content Include="obj\project.packagespec.json" />
+        <Content Include="obj\rider.project.model.nuget.info" />
+        <Content Include="obj\rider.project.restore.info" />
     </ItemGroup>
 
     <ItemGroup>
-        <Compile Include="obj\Debug\net6.0\.NETCoreApp,Version=v6.0.AssemblyAttributes.cs"/>
-        <Compile Include="obj\Debug\net6.0\Manager.Services.AssemblyInfo.cs"/>
-        <Compile Include="obj\Debug\net6.0\Manager.Services.GlobalUsings.g.cs"/>
+        <Compile Include="obj\Debug\net6.0\.NETCoreApp,Version=v6.0.AssemblyAttributes.cs" />
+        <Compile Include="obj\Debug\net6.0\Manager.Services.AssemblyInfo.cs" />
+        <Compile Include="obj\Debug\net6.0\Manager.Services.GlobalUsings.g.cs" />
     </ItemGroup>
 
     <ItemGroup>
-        <Folder Include="obj\Debug\net6.0\refint\"/>
-        <Folder Include="obj\Debug\net6.0\ref\"/>
+        <Folder Include="obj\Debug\net6.0\refint\" />
+        <Folder Include="obj\Debug\net6.0\ref\" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Manager.Domain\Manager.Domain.csproj" />
+      <ProjectReference Include="..\Manager.Infra\Manager.Infra.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="automapper" Version="12.0.1" />
     </ItemGroup>
 
 </Project>
