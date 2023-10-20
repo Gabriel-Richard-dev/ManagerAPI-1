@@ -1,0 +1,12 @@
+/home/gabrielrichard/WebAPI/Manager/src/Manager.Core/bin/Debug/net6.0/Manager.Core.deps.json
+/home/gabrielrichard/WebAPI/Manager/src/Manager.Core/bin/Debug/net6.0/Manager.Core.dll
+/home/gabrielrichard/WebAPI/Manager/src/Manager.Core/bin/Debug/net6.0/ref/Manager.Core.dll
+/home/gabrielrichard/WebAPI/Manager/src/Manager.Core/bin/Debug/net6.0/Manager.Core.pdb
+/home/gabrielrichard/WebAPI/Manager/src/Manager.Core/obj/Debug/net6.0/Manager.Core.GeneratedMSBuildEditorConfig.editorconfig
+/home/gabrielrichard/WebAPI/Manager/src/Manager.Core/obj/Debug/net6.0/Manager.Core.AssemblyInfoInputs.cache
+/home/gabrielrichard/WebAPI/Manager/src/Manager.Core/obj/Debug/net6.0/Manager.Core.AssemblyInfo.cs
+/home/gabrielrichard/WebAPI/Manager/src/Manager.Core/obj/Debug/net6.0/Manager.Core.csproj.CoreCompileInputs.cache
+/home/gabrielrichard/WebAPI/Manager/src/Manager.Core/obj/Debug/net6.0/Manager.Core.dll
+/home/gabrielrichard/WebAPI/Manager/src/Manager.Core/obj/Debug/net6.0/ref/Manager.Core.dll
+/home/gabrielrichard/WebAPI/Manager/src/Manager.Core/obj/Debug/net6.0/Manager.Core.pdb
+/home/gabrielrichard/WebAPI/Manager/src/Manager.Core/obj/Debug/net6.0/Manager.Core.csproj.AssemblyReference.cache

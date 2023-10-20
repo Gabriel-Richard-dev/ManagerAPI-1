@@ -1189,8 +1189,14 @@
           "System.Xml.ReaderWriter": "4.3.0"
         }
       },
+      "Manager.Core/1.0.0": {
+        "runtime": {
+          "Manager.Core.dll": {}
+        }
+      },
       "Manager.Domain/1.0.0": {
         "dependencies": {
+          "Manager.Core": "1.0.0",
           "FluentValidation": "11.7.1"
         },
         "runtime": {
@@ -2030,6 +2036,11 @@
       "sha512": "sha512-5zJ0XDxAIg8iy+t4aMnQAu0MqVbqyvfoUVl1yDV61xdo3Vth45oA2FoY4pPkxYAH5f8ixpmTqXeEIya95x0aCQ==",
       "path": "system.xml.xdocument/4.3.0",
       "hashPath": "system.xml.xdocument.4.3.0.nupkg.sha512"
+    },
+    "Manager.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     },
     "Manager.Domain/1.0.0": {
       "type": "project",

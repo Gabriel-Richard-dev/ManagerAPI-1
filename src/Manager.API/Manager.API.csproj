@@ -22,14 +22,15 @@
     </ItemGroup>
 
     <ItemGroup>
-        <Folder Include="Controllers\"/>
-    </ItemGroup>
-
-    <ItemGroup>
         <_ContentIncludedByDefault Remove="Manager.Infra\obj\Manager.Infra.csproj.nuget.dgspec.json"/>
         <_ContentIncludedByDefault Remove="Manager.Infra\obj\project.assets.json"/>
         <_ContentIncludedByDefault Remove="Manager.Domain\obj\Manager.Domain.csproj.nuget.dgspec.json"/>
         <_ContentIncludedByDefault Remove="Manager.Domain\obj\project.assets.json"/>
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Manager.Core\Manager.Core.csproj" />
+      <ProjectReference Include="..\Manager.Services\Manager.Services.csproj" />
     </ItemGroup>
 
 </Project>
