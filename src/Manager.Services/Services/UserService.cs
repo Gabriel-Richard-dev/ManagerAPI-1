@@ -22,13 +22,15 @@ public class UserService : IUserService
     public async Task<UserDTO> Create(UserDTO userDTO)
     {
         var userExists = await _userRepository.GetByEmail(userDTO.Email);
-        
-        if (userExists is not null)
-        { throw new DomainException("Já existe um usuário cadastrado com o email informado!"); }
 
-        var user = _mapper.Map<User>(typeof(UserDTO));
+        if (userExists != null)
+        {
+            throw new DomainException("Email já cadastrado");
+        }
 
+        var user = _mapper.Map<User>(userDTO);
         user.Validate();
+
         var userCreated = await _userRepository.Create(user);
 
         return _mapper.Map<UserDTO>(userCreated);

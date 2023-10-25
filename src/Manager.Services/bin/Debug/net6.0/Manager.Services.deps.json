@@ -8,8 +8,10 @@
     ".NETCoreApp,Version=v6.0": {
       "Manager.Services/1.0.0": {
         "dependencies": {
+          "EntityFramework": "6.4.4",
           "Manager.Domain": "1.0.0",
           "Manager.Infra": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "7.0.12",
           "AutoMapper": "12.0.1"
         },
         "runtime": {

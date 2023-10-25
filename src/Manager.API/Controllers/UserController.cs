@@ -26,22 +26,13 @@ public class UserController : ControllerBase
     [Route("api/v1/users/create")]
     public async Task<IActionResult> Create([FromBody]CreateUserViewModel userViewModel)
     {
-        try
-        {
+      
             var userDTO = _mapper.Map<UserDTO>(userViewModel);
             var userCreated = await _userService.Create(userDTO);
             return Ok(new ResultViewModel{
                 Message = "Usuário criado com sucesso",
                 Sucess = true,
                 Data = userCreated});
-        }
-        catch (DomainException ex)
-        {
-            return BadRequest(Responses.DomainErrorMessage(ex.Message, ex.Erros));
-        }
-        catch (Exception)
-        {
-            return StatusCode(500, Responses.ApplicationErrorMessage());}
-        return Ok();
+            
     }
 }

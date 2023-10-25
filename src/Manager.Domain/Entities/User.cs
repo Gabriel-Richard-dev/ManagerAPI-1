@@ -5,6 +5,8 @@ namespace Manager.Domain.Entities
 {
     public class User : Base
     {
+        protected User(){}
+
         public User(string name, string email, string password)
         {
             Name = name;
@@ -12,11 +14,11 @@ namespace Manager.Domain.Entities
             Password = password;
             _erros = new List<string>();
 
-            Validate();
+            Validate(); 
         }
+
         //EF
-        protected User(){}
-        
+
         public string Name { get; private set; }
         public string Email { get; private set; }
         public string Password { get; private set; }
@@ -41,17 +43,16 @@ namespace Manager.Domain.Entities
         {
             var validator = new UserValidator();
             var validation = validator.Validate(this);
+
             if (!validation.IsValid)
             {
                 foreach (var error in validation.Errors)
-                {
                     _erros.Add(error.ErrorMessage);
-                }
 
-                throw new DomainException($"Alguns campos estão inválidos, corrija-os, \n", _erros);
+                throw new DomainException("Campo inválido, corrija-os.", _erros);
             }
+
             return true;
         }
-        
     }
 }

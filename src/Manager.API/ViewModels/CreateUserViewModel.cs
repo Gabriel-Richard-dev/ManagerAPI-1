@@ -12,7 +12,6 @@ public class CreateUserViewModel
     [Required(ErrorMessage = "O email não pode ser nulo")]
     [MinLength(13, ErrorMessage = "O email não pode ter menos de 13 caracteres")]
     [MaxLength(180, ErrorMessage = "O email não pode ter mais de 180 caracteres")]
-    [RegularExpression(@"^([\w\.\-]+)@([\w\-]+)((\.(\w){2,3})+)$")]
     public string Email { get; set; }
     
     [Required(ErrorMessage = "Campo 'senha' é obrigatório")]
