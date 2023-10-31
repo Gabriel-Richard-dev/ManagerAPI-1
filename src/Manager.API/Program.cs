@@ -27,6 +27,7 @@ void AutoMapperDependenceInjection()
     {
         cfg.CreateMap<User, UserDTO>().ReverseMap();
         cfg.CreateMap<CreateUserViewModel, UserDTO>().ReverseMap();
+        cfg.CreateMap<UpdateUserViewModel, UserDTO>().ReverseMap();
     });
     builder.Services.AddSingleton(autoMapperCofig.CreateMapper());
 }
@@ -40,8 +41,6 @@ builder.Services.AddDbContext<ManagerContext>(options =>
 
 builder.Services.AddScoped<IUserService, UserService>();
 builder.Services.AddScoped<IUserRepository, UserRepository>();
-
-
 
 
 builder.Services.AddSwaggerGen();

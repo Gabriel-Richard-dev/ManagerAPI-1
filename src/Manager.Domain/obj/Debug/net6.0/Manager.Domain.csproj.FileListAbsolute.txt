@@ -1,6 +1,5 @@
 /home/gabrielrichard/WebAPI/Manager/src/Manager.Domain/bin/Debug/net6.0/Manager.Domain.deps.json
 /home/gabrielrichard/WebAPI/Manager/src/Manager.Domain/bin/Debug/net6.0/Manager.Domain.dll
-/home/gabrielrichard/WebAPI/Manager/src/Manager.Domain/bin/Debug/net6.0/ref/Manager.Domain.dll
 /home/gabrielrichard/WebAPI/Manager/src/Manager.Domain/bin/Debug/net6.0/Manager.Domain.pdb
 /home/gabrielrichard/WebAPI/Manager/src/Manager.Domain/bin/Debug/net6.0/Manager.Core.dll
 /home/gabrielrichard/WebAPI/Manager/src/Manager.Domain/bin/Debug/net6.0/Manager.Core.pdb
@@ -13,3 +12,4 @@
 /home/gabrielrichard/WebAPI/Manager/src/Manager.Domain/obj/Debug/net6.0/Manager.Domain.dll
 /home/gabrielrichard/WebAPI/Manager/src/Manager.Domain/obj/Debug/net6.0/ref/Manager.Domain.dll
 /home/gabrielrichard/WebAPI/Manager/src/Manager.Domain/obj/Debug/net6.0/Manager.Domain.pdb
+/home/gabrielrichard/WebAPI/Manager/src/Manager.Domain/obj/Debug/net6.0/refint/Manager.Domain.dll

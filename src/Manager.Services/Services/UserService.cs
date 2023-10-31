@@ -43,8 +43,8 @@ public class UserService : IUserService
         if (userExists is null)
         { throw new DomainException("Não há como atualizar um user inexistente"); }
 
-        var user = _mapper.Map<User>(typeof(UserDTO));
-        user.Validate();
+        var user = _mapper.Map<User>(userDTO);
+        
 
         var userUpdated = await _userRepository.Update(user);
 
@@ -84,7 +84,7 @@ public class UserService : IUserService
 
     }
 
-    public async Task<List<UserDTO>> SearchByEmail(string email)
+    public async Task<List<UserDTO>?> SearchByEmail(string email)
     {
         var userlist = await _userRepository.SearchByEmail(email);
 
@@ -95,7 +95,7 @@ public class UserService : IUserService
     {
         var user = await _userRepository.GetByEmail(email);
 
-        if (user is null)
+        if (user == null)
         {
             throw new DomainException("Não existe usuário cadastrado com esse email");
         }

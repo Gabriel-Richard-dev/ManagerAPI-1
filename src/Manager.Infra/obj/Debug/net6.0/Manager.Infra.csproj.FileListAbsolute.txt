@@ -1,7 +1,6 @@
 /home/gabrielrichard/WebAPI/Manager/src/Manager.Infra/bin/Debug/net6.0/Manager.Infra.deps.json
 /home/gabrielrichard/WebAPI/Manager/src/Manager.Infra/bin/Debug/net6.0/Manager.Infra.runtimeconfig.json
 /home/gabrielrichard/WebAPI/Manager/src/Manager.Infra/bin/Debug/net6.0/Manager.Infra.dll
-/home/gabrielrichard/WebAPI/Manager/src/Manager.Infra/bin/Debug/net6.0/ref/Manager.Infra.dll
 /home/gabrielrichard/WebAPI/Manager/src/Manager.Infra/bin/Debug/net6.0/Manager.Infra.pdb
 /home/gabrielrichard/WebAPI/Manager/src/Manager.Infra/bin/Debug/net6.0/Manager.Core.dll
 /home/gabrielrichard/WebAPI/Manager/src/Manager.Infra/bin/Debug/net6.0/Manager.Domain.dll
@@ -17,3 +16,4 @@
 /home/gabrielrichard/WebAPI/Manager/src/Manager.Infra/obj/Debug/net6.0/ref/Manager.Infra.dll
 /home/gabrielrichard/WebAPI/Manager/src/Manager.Infra/obj/Debug/net6.0/Manager.Infra.pdb
 /home/gabrielrichard/WebAPI/Manager/src/Manager.Infra/obj/Debug/net6.0/Manager.Infra.genruntimeconfig.cache
+/home/gabrielrichard/WebAPI/Manager/src/Manager.Infra/obj/Debug/net6.0/refint/Manager.Infra.dll

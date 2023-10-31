@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "5QcndRQspX4VkmpBjdP0J3d2HgFV2RwK4lTAzvq8kmDe4sZ2K9q6PQwuFkq8fuTmMv3WCh7IZY7QxAVph7pl0A==",
+  "dgSpecHash": "DsZLfihS3Ps2GT8f+ZuvYN1ieJeuYbxBKztEAS4Yu16sJCTnL1hhs8laVAfs7KgiarRI0327vOwjv83IX+fM5Q==",
   "success": true,
   "projectFilePath": "/home/gabrielrichard/WebAPI/Manager/src/Manager.Services/Manager.Services.csproj",
   "expectedPackageFiles": [
@@ -123,7 +123,7 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'System.Data.Entity.Repository 2.0.0.1' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "message": "Package 'System.Data.Entity.Repository 2.0.0.1' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
       "libraryId": "System.Data.Entity.Repository",
       "targetGraphs": [
         "net6.0"

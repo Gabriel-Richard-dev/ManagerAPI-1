@@ -21,7 +21,7 @@ public class BaseRepository<T> : IBaseRepository<T> where T : Base
     {
         _context.Add(obj);
         await _context.SaveChangesAsync();
-
+        
         return obj;
     }
 
@@ -36,16 +36,14 @@ public class BaseRepository<T> : IBaseRepository<T> where T : Base
     public virtual async Task Remove(long id)
     {
         var obj = await Get(id);
-
-        if (obj is not null)
-        {
-            _context.Remove(obj);
-            await _context.SaveChangesAsync();
-        }
+        
+        _context.Remove(obj);
+        await _context.SaveChangesAsync();
+        
     }
 
 
-    public virtual async Task<T> Get(long id)
+    public virtual async Task<T?> Get(long id)
     {
         var obj = await _context.Set<T>()
             .AsNoTrackingWithIdentityResolution()

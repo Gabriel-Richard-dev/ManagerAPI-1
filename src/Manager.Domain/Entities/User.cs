@@ -5,7 +5,9 @@ namespace Manager.Domain.Entities
 {
     public class User : Base
     {
-        protected User(){}
+        protected User()
+        {
+        }
 
         public User(string name, string email, string password)
         {
@@ -14,7 +16,7 @@ namespace Manager.Domain.Entities
             Password = password;
             _erros = new List<string>();
 
-            Validate(); 
+            Validate();
         }
 
         //EF
@@ -28,11 +30,13 @@ namespace Manager.Domain.Entities
             Name = name;
             Validate();
         }
+
         public void ChangePassword(string password)
         {
             Password = password;
             Validate();
         }
+
         public void ChangeEmail(string email)
         {
             Email = email;

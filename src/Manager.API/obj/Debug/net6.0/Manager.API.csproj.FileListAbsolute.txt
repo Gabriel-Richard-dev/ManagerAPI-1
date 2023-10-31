@@ -4,7 +4,6 @@
 /home/gabrielrichard/WebAPI/Manager/src/Manager.API/bin/Debug/net6.0/Manager.API.deps.json
 /home/gabrielrichard/WebAPI/Manager/src/Manager.API/bin/Debug/net6.0/Manager.API.runtimeconfig.json
 /home/gabrielrichard/WebAPI/Manager/src/Manager.API/bin/Debug/net6.0/Manager.API.dll
-/home/gabrielrichard/WebAPI/Manager/src/Manager.API/bin/Debug/net6.0/ref/Manager.API.dll
 /home/gabrielrichard/WebAPI/Manager/src/Manager.API/bin/Debug/net6.0/Manager.API.pdb
 /home/gabrielrichard/WebAPI/Manager/src/Manager.API/bin/Debug/net6.0/AutoMapper.dll
 /home/gabrielrichard/WebAPI/Manager/src/Manager.API/bin/Debug/net6.0/EntityFramework.SqlServer.dll
@@ -79,3 +78,9 @@
 /home/gabrielrichard/WebAPI/Manager/src/Manager.API/obj/Debug/net6.0/ref/Manager.API.dll
 /home/gabrielrichard/WebAPI/Manager/src/Manager.API/obj/Debug/net6.0/Manager.API.pdb
 /home/gabrielrichard/WebAPI/Manager/src/Manager.API/obj/Debug/net6.0/Manager.API.genruntimeconfig.cache
+/home/gabrielrichard/WebAPI/Manager/src/Manager.API/obj/Debug/net6.0/staticwebassets/msbuild.Manager.API.Microsoft.AspNetCore.StaticWebAssets.props
+/home/gabrielrichard/WebAPI/Manager/src/Manager.API/obj/Debug/net6.0/staticwebassets/msbuild.build.Manager.API.props
+/home/gabrielrichard/WebAPI/Manager/src/Manager.API/obj/Debug/net6.0/staticwebassets/msbuild.buildMultiTargeting.Manager.API.props
+/home/gabrielrichard/WebAPI/Manager/src/Manager.API/obj/Debug/net6.0/staticwebassets/msbuild.buildTransitive.Manager.API.props
+/home/gabrielrichard/WebAPI/Manager/src/Manager.API/obj/Debug/net6.0/staticwebassets.pack.json
+/home/gabrielrichard/WebAPI/Manager/src/Manager.API/obj/Debug/net6.0/refint/Manager.API.dll

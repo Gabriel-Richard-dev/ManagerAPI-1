@@ -13,7 +13,8 @@ public class UserDTO
     public string Password { get; set; }
 
     public UserDTO()
-    { }
+    {
+    }
 
     public UserDTO(long id, string name, string email, string password)
     {
